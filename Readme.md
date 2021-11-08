@@ -26,7 +26,7 @@ export REGION=[REGION]
 ```
 
 ``` 
-export IMAGE_URL="gcr.io/$(gcloud config get-value project)/editor-service" 
+export IMAGE_URL="gcr.io/$(gcloud config get-value project)/${SERVICE}"
 ``` 
 
 * IAM
